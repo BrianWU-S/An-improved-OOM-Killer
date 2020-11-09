@@ -17,4 +17,4 @@ enhanced due to the help of new OOM Killer’s trigger condition.
 * Easy to test. I implement two system_call caller (in mm_caller.c and
 Check_Condition_caller.c) to help test the system calls’ correctness. You can just compile
 them and execute them in android kernel. (Note that they don’t need any parameters)
-
+* Easy to read: The idea is clear and can be quickly understood by the others. The code has high readability with clear naming rules and detailed comments. The program logic structure is clear due to a good abstraction of main code’s jobs into several worker function.
