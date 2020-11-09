@@ -1,6 +1,6 @@
 # An-improved-OOM-Killer
-This new OOM Killer is designed and implemented by myself to  improve the OOM Killer’s kill process mechanism. That is to say, my work is to make the original Linux OOM Killer smarter.
-In \b{Design_and_mplementing_my_new_OOM_Killer.pdf} you can view the implementation details and design ideas.
+This new OOM Killer is designed and implemented by myself to  improve the OOM Killer’s kill process mechanism. That is to say, my work is to make the original Linux OOM Killer smarter. 
+### In Design_and_mplementing_my_new_OOM_Killer.pdf,  you can view the implementation details and design ideas.
 ## My work
 My work is consisted of four main parts. 
 * First part, add a new System Call of setting
