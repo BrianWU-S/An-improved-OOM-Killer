@@ -14,7 +14,7 @@ process for OOM Killer and modify the select_badness_function to implement it.
 global flag variables are added in order to ensure each time we use the new OOM Killer we
 have gained all the necessary information. So the system will not crash and its robustness is
 enhanced due to the help of new OOM Killer’s trigger condition.
-• Easy to test. I implement two system_call caller (in mm_caller.c and
+* Easy to test. I implement two system_call caller (in mm_caller.c and
 Check_Condition_caller.c) to help test the system calls’ correctness. You can just compile
 them and execute them in android kernel. (Note that they don’t need any parameters)
 
